@@ -1,0 +1,8 @@
+com\banking\testcases\BaseTest.class
+com\banking\testcases\TC01_LoginTest.class
+com\banking\utilities\XLUtils.class
+com\banking\testcases\TC02_LoginUsingExcelTest.class
+com\banking\resources\ReadConfig.class
+com\banking\utilities\Reporting.class
+com\banking\utilities\DriverFactory.class
+com\banking\pages\LoginPage.class

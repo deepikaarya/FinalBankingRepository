@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.168 sec <<< FAILURE! - in TestSuite
+loginTest(com.banking.testcases.TC02_LoginUsingExcelTest)  Time elapsed: 7.207 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.banking.testcases.TC02_LoginUsingExcelTest.loginTest(TC02_LoginUsingExcelTest.java:35)
+
+loginTest(com.banking.testcases.TC02_LoginUsingExcelTest)  Time elapsed: 4.664 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.banking.testcases.TC02_LoginUsingExcelTest.loginTest(TC02_LoginUsingExcelTest.java:35)
+
